@@ -18,12 +18,12 @@ if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
     if (i < f) {
         //contagem crescente
         for (let c = i; c <= f; c +=p) {
-            res.innerHTML += `${c}`
+            res.innerHTML += `${c} ''`
         }
     } else {
         //contagem regressiva
         for (let c = i; c >= f; c -= p) {
-            res.innerHTML += `${c}`
+            res.innerHTML += `${c} ''`
       }
     }
   }
